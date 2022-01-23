@@ -1,0 +1,13 @@
+[
+  {
+    "firstName": "Amiel",
+    "lastName": "Vincent",
+    "phoneNumber": "469-555-5555",
+    "email": "amiel@fake.com",
+    "weddingDate": "1/31/22",
+    "venueName": "Hilton",
+    "venueAddress:": "1234 Hello Blvd",
+    "guestCount": "250",
+    "colorTheme": "pink and white colors"
+  }
+]
