@@ -7,11 +7,13 @@ const LeadSchema = new mongoose.Schema(
     phoneNumber: { type: String, required: true },
     email: { type: String, required: true },
     weddingDate: { type: String, required: true },
-    venueName: String,
+    venueName: { type: String, required: true },
     venueAddress: String,
     guestCount: { type: String, required: true },
     colorTheme: String,
     addNotes: String,
+    client: { type: Boolean, default: false },
+    archived: { type: Boolean, default: false },
   },
   { timestamps: true }
 );
