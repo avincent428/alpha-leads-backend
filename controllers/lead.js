@@ -17,12 +17,12 @@ LeadRouter.post("/", (req, res, next) => {
     .catch(next);
 });
 
-// BookRouter.put('/:id', (req, res, next) => {
-//     Book.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
-//         // .then((book) => res.json(book))
-//         .then(() => res.redirect("/books")) // both of these work
-//         .catch(next)
-// })
+// update
+LeadRouter.put("/:id", (req, res, next) => {
+  Lead.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
+    .then((lead) => res.json(lead))
+    .catch(next);
+});
 
 // delete
 LeadRouter.delete("/:id", (req, res, next) => {
