@@ -1,6 +1,6 @@
 # Capstone Project - Lead Capture for Small Businesses
 
-#[Click Here to view](https://alpha-leads-frontend.herokuapp.com/)
+[Click Here to view](https://alpha-leads-frontend.herokuapp.com/)
 ## Description
 The main motivation behind this project was to solve the problem some small businesses may have in keeping track of leads and saving time. Currently, leads will call your phone number and the business owner has to manually keep track of whatever info they've been told. Then they have to write the information down somewhere. This project aims to solve that problem by creating software that automates this process and add an extra level of organization to the business.
 
